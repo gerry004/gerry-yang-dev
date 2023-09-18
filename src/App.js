@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      Gerry Yang Dev
+      <h1 className="text-center">Gerry Yang Dev</h1>
     </div>
   );
 }
