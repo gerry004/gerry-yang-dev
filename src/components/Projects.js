@@ -2,7 +2,7 @@ import projects from "../content/projects";
 
 function Projects() {
   return (
-    <div className="h-screen">
+    <div className="flex flex-col justify-center items-center my-8 mx-2">
       <h1>Projects</h1>
       {projects.map((project) => (
         <div key={projects.indexOf(project)}>
