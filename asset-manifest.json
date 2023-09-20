@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/gerry-yang-dev/static/css/main.580f7291.css",
-    "main.js": "/gerry-yang-dev/static/js/main.df5eba88.js",
+    "main.js": "/gerry-yang-dev/static/js/main.27e40068.js",
     "static/js/787.738795d0.chunk.js": "/gerry-yang-dev/static/js/787.738795d0.chunk.js",
     "static/media/fw-headshot-1.JPG": "/gerry-yang-dev/static/media/fw-headshot-1.9a583c23ee8caccfe218.JPG",
     "index.html": "/gerry-yang-dev/index.html",
     "main.580f7291.css.map": "/gerry-yang-dev/static/css/main.580f7291.css.map",
-    "main.df5eba88.js.map": "/gerry-yang-dev/static/js/main.df5eba88.js.map",
+    "main.27e40068.js.map": "/gerry-yang-dev/static/js/main.27e40068.js.map",
     "787.738795d0.chunk.js.map": "/gerry-yang-dev/static/js/787.738795d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.580f7291.css",
-    "static/js/main.df5eba88.js"
+    "static/js/main.27e40068.js"
   ]
 }
