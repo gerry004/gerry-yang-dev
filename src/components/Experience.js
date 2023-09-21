@@ -1,5 +1,11 @@
 import experiences from "../content/experiences";
 
+function ExperienceImage({ image, title, ...props }) {
+  if (image) {
+    return (<img src={image} alt={title} className="border-2 border-white w-[100%] rounded-md" />)
+  }
+}
+
 function Experience() {
   const readMore = (id) => {
     const experience = document.getElementById("experience-" + id);
@@ -20,7 +26,8 @@ function Experience() {
       <div className="md:grid md:grid-cols-2 md:gap-4 md:justify-between md:max-w-[60%]">
         {experiences.map((experience) => (
           <div className="bg-primary p-6 my-4 rounded-md shadow-md shadow-gray border border-gray md:my-2" key={experiences.indexOf(experience)}>
-            <h2 className="text-white">{experience.title}</h2>
+            <ExperienceImage image={experience.image} title={experience.title} />
+            <h2 className="text-white my-4">{experience.title}</h2>
             <p id={"experience-" + experiences.indexOf(experience)} className="text-white my-2 line-clamp-3">{experience.description}</p>
             <button className="text-[#D3D3D3]" id={"e-button-" + experiences.indexOf(experience)} onClick={() => readMore(experiences.indexOf(experience))}>Read More...</button>
             <div className="flex flex-wrap">

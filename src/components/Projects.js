@@ -1,5 +1,11 @@
 import projects from "../content/projects";
 
+function ProjectImage({ image, title, ...props }) {
+  if (image) {
+    return (<img src={image} alt={title} className="border-2 border-gray rounded-md" />)
+  }
+}
+
 function Projects() {
   const readMore = (id) => {
     const project = document.getElementById("project-" + id);
@@ -20,12 +26,13 @@ function Projects() {
       <div className="md:grid md:grid-cols-2 md:gap-4 md:justify-between md:max-w-[60%]">
         {projects.map((project) => (
           <div className="bg-white p-6 my-6 rounded-md shadow-md shadow-gray border border-gray md:my-2" key={projects.indexOf(project)}>
-            <h2>{project.title}</h2>
+            <ProjectImage image={project.image} title={project.title} />
+            <h2 className="my-4">{project.title}</h2>
             <p id={"project-" + projects.indexOf(project)} className="line-clamp-4 my-2">{project.description}</p>
             <button className="text-secondary" id={"p-button-" + projects.indexOf(project)} onClick={() => readMore(projects.indexOf(project))}>Read More...</button>
             <div className="flex flex-wrap">
               {project.tools.map((tool) => (
-                <p className="border-solid border-secondary text-secondary border-2 rounded-md mt-2 mr-2 p-2"key={project.tools.indexOf(tool)}>{tool}</p>
+                <p className="border-solid border-secondary text-secondary border-2 rounded-md mt-2 mr-2 p-2" key={project.tools.indexOf(tool)}>{tool}</p>
               ))}
             </div>
           </div>

@@ -1,10 +1,15 @@
+import pianistHero from '../assets/gy-pianist-hero.png';
+import kreohInsights from '../assets/kreoh-insights.png';
+
 const projects = [{
   title: 'Kreoh',
+  image: kreohInsights,
   description: 'Kreoh is an educational platform that brings software engineering best practises to university students.',
   tools: ["Vue.js", "JavaScript", "Python", "Flask", "PostgreSQL", "pgAdmin"],
 },
 {
-  title: 'Gerry Yang Pianist',
+  title: 'Pianist Portfolio',
+  image: pianistHero,
   description: 'A collection of my most outstanding recordings and a timeline of the successes, highlights, and achievements on my musical journey.',
   tools: ["React.js", "Tailwind CSS"],
 },
