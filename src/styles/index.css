@@ -13,3 +13,7 @@ h2 {
 p {
   @apply text-gray text-base md:text-lg;
 }
+
+li {
+  @apply text-gray text-base md:text-lg;
+}
