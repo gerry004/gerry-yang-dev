@@ -11,7 +11,7 @@ function Projects() {
   return (
     <div className="flex flex-col justify-center items-center py-8 px-5 bg-primary">
       <h1 className="text-white py-4">Projects</h1>
-      <div className="md:grid md:grid-cols-2 md:gap-4 md:justify-between md:max-w-[60%]">
+      <div className="md:grid md:grid-cols-2 md:gap-4 md:justify-between md:max-w-[80%] lg:max-w-[70%]">
         {projects.map((project) => (
           <div className="bg-white p-6 my-6 rounded-md shadow-md shadow-gray border border-gray md:my-2" key={projects.indexOf(project)}>
             <ProjectImage image={project.image} title={project.title} />

@@ -10,7 +10,7 @@ function Experience() {
   return (
     <div className="flex flex-col justify-center items-center my-8 mx-5">
       <h1 className="py-4">Experience</h1>
-      <div className="md:grid md:grid-cols-2 md:gap-4 md:justify-between md:max-w-[60%]">
+      <div className="md:grid md:grid-cols-2 md:gap-4 md:justify-between lg:max-w-[70%] md:max-w-[80%]">
         {experiences.map((experience) => (
           <div className="bg-primary p-6 my-4 rounded-md shadow-md shadow-gray border border-gray md:my-2" key={experiences.indexOf(experience)}>
             <ExperienceImage image={experience.image} title={experience.title} />
