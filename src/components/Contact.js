@@ -2,7 +2,8 @@ function Contact() {
   return (
     <div className="flex flex-col justify-center items-center bg-primary py-6">
       <h1 className="text-white p-4">Contact</h1>
-      <p className="text-white text-center p-4 md:max-w-[30%]">I'm always looking for exciting projects to work on and interesting people to chat with, so don't hesitate to shoot me an email! @gerry04y@gmail.com</p>
+      <p className="text-white text-center px-4 pt-4 md:max-w-[30%]">I'm always looking for exciting projects to work on and interesting people to chat with, so don't hesitate to shoot me an email!</p>
+      <p className="text-white font-semibold underline underline-offset-2 pb-4">Email: gerry04y@gmail.com</p>
       <div className="flex flex-row flex-wrap justify-around p-2 m-4 bg-white rounded-md shadow-gray shadow-md">
         <GitHubLink />
         <LinkedInLink />

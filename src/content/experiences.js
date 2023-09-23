@@ -29,7 +29,7 @@ function Description(props) {
         ))}
       </ul>
       {points.length > 0 ? (
-        <button onClick={readMore} className="text-[#D3D3D3] my-2">Read More...</button>) : null
+        <button onClick={readMore} className="underline text-white hover:text-secondary my-2">Read More...</button>) : null
       }
     </div>
   )

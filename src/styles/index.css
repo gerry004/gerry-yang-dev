@@ -17,7 +17,3 @@ p {
 li {
   @apply text-gray text-base md:text-lg;
 }
-
-a {
-  @apply hover:underline hover:text-secondary;
-}
