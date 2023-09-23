@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gerry-yang-dev/static/css/main.3be5d516.css",
-    "main.js": "/gerry-yang-dev/static/js/main.7dcaefc9.js",
+    "main.css": "/gerry-yang-dev/static/css/main.37fcd7e1.css",
+    "main.js": "/gerry-yang-dev/static/js/main.44203f0c.js",
     "static/js/787.738795d0.chunk.js": "/gerry-yang-dev/static/js/787.738795d0.chunk.js",
     "static/media/fw-headshot-1.JPG": "/gerry-yang-dev/static/media/fw-headshot-1.9a583c23ee8caccfe218.JPG",
     "static/media/kreoh-demo-day-center.jpg": "/gerry-yang-dev/static/media/kreoh-demo-day-center.6a97c13e6a53337b42ee.jpg",
@@ -9,12 +9,12 @@
     "static/media/kreoh-insights.png": "/gerry-yang-dev/static/media/kreoh-insights.4179d8b155a0cfd88cdc.png",
     "static/media/kreoh-logo.png": "/gerry-yang-dev/static/media/kreoh-logo.3667e5f0c4bcf33cdda4.png",
     "index.html": "/gerry-yang-dev/index.html",
-    "main.3be5d516.css.map": "/gerry-yang-dev/static/css/main.3be5d516.css.map",
-    "main.7dcaefc9.js.map": "/gerry-yang-dev/static/js/main.7dcaefc9.js.map",
+    "main.37fcd7e1.css.map": "/gerry-yang-dev/static/css/main.37fcd7e1.css.map",
+    "main.44203f0c.js.map": "/gerry-yang-dev/static/js/main.44203f0c.js.map",
     "787.738795d0.chunk.js.map": "/gerry-yang-dev/static/js/787.738795d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3be5d516.css",
-    "static/js/main.7dcaefc9.js"
+    "static/css/main.37fcd7e1.css",
+    "static/js/main.44203f0c.js"
   ]
 }
