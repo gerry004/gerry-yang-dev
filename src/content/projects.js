@@ -7,6 +7,7 @@ function Description(props) {
   const pointsRef = useRef();
 
   const readMore = (e) => {
+    e.preventDefault();
     const experience = pointsRef.current;
     const button = e.target;
     if (experience && experience.classList.contains("hidden")) {
@@ -28,7 +29,7 @@ function Description(props) {
         ))}
       </ul>
       {points.length > 0 ? (
-        <button onClick={readMore} className="text-secondary my-2">Read More...</button>) : null
+        <button onClick={readMore} className="text-secondary my-2 hover:text-primary">Read More...</button>) : null
       }
     </div>
   )
@@ -37,6 +38,7 @@ function Description(props) {
 const projects = [{
   title: 'Kreoh',
   image: kreohInsights,
+  link: 'https://www.isef.ie/isef-2022',
   description: <Description
     description={'Kreoh is an educational platform that enables students to learn faster by facilitating code reviews between peers, and provides lecturers with granular data for accurate and efficient grading.'}
     points={["The platform handled 3,000+ changes and 600+ code reviews from over 100 students.",
@@ -50,6 +52,7 @@ const projects = [{
 {
   title: 'Pianist Portfolio',
   image: pianistHero,
+  link: 'https://gerry004.github.io/gerry-yang-pianist/',
   description: <Description
     description={'A collection of my most outstanding recordings and a timeline of the successes, highlights, and achievements on my musical journey.'}
     points={["Built an audio player where you could skip to a certain spot in a piece.",
@@ -58,6 +61,7 @@ const projects = [{
 },
 {
   title: 'Predicting Housing Prices',
+  link: 'https://github.com/gerry004/Predict-House-Prices',
   description: <Description
     description={'A project to help me learn about machine learning processes and how they can be applied in the real world to predict housing prices.'}
     points={['Cleaned and analysed housing price data with over 10,000 records.',
@@ -68,6 +72,7 @@ const projects = [{
 },
 {
   title: 'IMC Prosperity Challenge',
+  link: 'https://www.imc.com/us/news/prosperity-the-worlds-most-elaborate-trading-challenge/',
   description: <Description
     description={'Participated in a global 10-day algorithmic trading challenge, implemented six different algorithms based on changing trading strategies - placed 856th of 10,000+ teams.'}
     points={[]} />,
