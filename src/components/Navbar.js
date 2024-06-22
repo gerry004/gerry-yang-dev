@@ -38,7 +38,7 @@ function Navbar(props) {
         </button>
         <a
           className="hover:underline underline-offset-2 font-medium"
-          href="https://drive.google.com/file/d/1Bg2wTxCRDBKf9GwrqIqedWG6u5NlgURa/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Rw947iUqeQELGiM6Ne0BVsWXZIudnbtY/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
