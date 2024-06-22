@@ -3,6 +3,31 @@ import kreohLogo from "../assets/kreoh-logo.png";
 
 const EXPERIENCES = [
   {
+    title: "Noloco - Software Engineer",
+    link: "https://www.noloco.io/",
+    description:
+      "Noloco (YC S21) is a platform that allows businesses to build custom no-code apps from their data in minutes. As a software engineer, I shipped numerous sought out features that customers were excited to use.",
+    points: [
+      "Autocomplete Address Fields - suggests addresses from Google Maps as you type, to speed up form filling, reduce errors, and improve data accuracy.", 
+      "E Signature Fields - enables collecting signatures directly within the app, with options to draw, type, or upload, on any device. Streamlining processes and eliminating the need for third party apps like DocuSign.",
+      "User Workflow Actions - automatically send invitation emails and deactivate user accounts through workflows, effortlessly streamlining the onboarding and offboarding processes.",
+      "Trial Limit on Apps - set trial end dates so that customers are encouraged to upgrade to a paid plan quicker.",
+      "Record Coloring - assign colors to records based on conditions, allowing users to easily identify and categorize records at a glance, making the data more intuitive.",
+      "View a Record Action - ability to quickly display only the required record data in a modal rather than redirecting users to the record page.",
+      "Import Data By Value Instead of Ids - making imports more intuitive and user-friendly.",
+      "Other improvements - mobile enhancements, fixing bugs, extending support of existing features.",
+    ],
+    skills: [
+      "React.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "GaphQL",
+      "Node.js",
+      "MongoDB",
+      "PostegreSQL",
+    ],
+  },
+  {
     title: "Kreoh - Software Engineer, Co Founder",
     image: kreohLogo,
     link: "https://www.isef.ie/isef-2022",
