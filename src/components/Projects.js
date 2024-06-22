@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div className="flex flex-col justify-center items-center py-16 md:py-18 px-5">
       <h1 className="text-primary py-4 md:py-12">Projects</h1>
-      <div className="md:grid md:grid-cols-2 md:gap-4 md:justify-between md:max-w-[80%] lg:max-w-[70%]">
+      <div className="md:grid md:grid-cols-2 md:gap-4 md:justify-between lg:max-w-[70%] md:max-w-[80%]">
         {PROJECTS.map(({ title, image, link, description, points, skills }) => (
           <Card
             image={image}
