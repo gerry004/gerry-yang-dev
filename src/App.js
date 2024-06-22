@@ -13,13 +13,17 @@ function App() {
 
   return (
     <div>
-      <Navbar projectsRef={projectsRef} experienceRef={experienceRef} contactRef={contactRef}/>
+      <Navbar
+        projectsRef={projectsRef}
+        experienceRef={experienceRef}
+        contactRef={contactRef}
+      />
       <Hero />
-      <section ref={projectsRef}>
-        <Projects />
-      </section>
       <section ref={experienceRef}>
         <Experience />
+      </section>
+      <section ref={projectsRef}>
+        <Projects />
       </section>
       <section ref={contactRef}>
         <Contact />

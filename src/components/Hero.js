@@ -8,7 +8,7 @@ function Hero() {
         transition ease-in-out hover:shadow-2xl hover:-translate-y-4" />
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-primary">Gerry Yang</h1>
-        <p className="p-4">I'm an MSISS student at Trinity College Dublin, Former Co-Founder of Kreoh, Naughton Scholar, Patch 2021 Alumni, but really - I'm a self taught programmer that loves figuring out new ideas and building cool stuff.</p>
+        <p className="p-4">I'm an MSISS student at Trinity College Dublin, Former Software Engineer at Noloco (YCS21), Former Co-Founder of Kreoh, Naughton Scholar, Patch 2021 Alumni, but really - I'm a self taught programmer that loves figuring out new ideas and building cool stuff.</p>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="text-primary py-1 w-10 h-10 animate-bounce">
           <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
         </svg>
