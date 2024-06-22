@@ -7,11 +7,12 @@ function Experience() {
       <h1 className="text-white py-4 md:py-12">Experience</h1>
       <div className="md:grid md:grid-cols-2 md:gap-4 md:justify-between lg:max-w-[70%] md:max-w-[80%]">
         {EXPERIENCES.map(
-          ({ title, image, link, description, points, skills }) => (
+          ({ title, image, link, description, dates, points, skills }) => (
             <Card
               image={image}
               link={link}
               title={title}
+              dates={dates}
               description={description}
               points={points}
               skills={skills}

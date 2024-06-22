@@ -3,6 +3,7 @@ import { useState } from "react";
 const Card = ({
   image,
   title,
+  dates,
   description,
   points = [],
   skills = [],
@@ -26,8 +27,9 @@ const Card = ({
         />
       )}
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <h2 className={`${titleTextColor} hover:underline my-4`}>{title}</h2>
+        <h2 className={`${titleTextColor} hover:underline mt-4`}>{title}</h2>
       </a>
+      <p className={`${titleTextColor} mb-4`}>{dates}</p>
 
       <p className={`${textColor} my-2`}>{description}</p>
       {showMore && (

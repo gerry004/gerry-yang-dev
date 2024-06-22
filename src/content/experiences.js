@@ -1,10 +1,8 @@
-import kreohDemoDay from "../assets/kreoh-demo-day-center.jpg";
-import kreohLogo from "../assets/kreoh-logo.png";
-
 const EXPERIENCES = [
   {
     title: "Noloco - Software Engineer",
     link: "https://www.noloco.io/",
+    dates: "January 2024 - June 2024",
     description:
       "Noloco (YC S21) is a platform that allows businesses to build custom no-code apps from their data in minutes. As a software engineer, I shipped numerous sought out features that customers were excited to use.",
     points: [
@@ -28,9 +26,9 @@ const EXPERIENCES = [
     ],
   },
   {
-    title: "Kreoh - Software Engineer, Co Founder",
-    image: kreohLogo,
+    title: "Kreoh - Co Founder, Software Engineer",
     link: "https://www.isef.ie/isef-2022",
+    dates: "July 2021 - September 2022",
     description:
       "Kreoh is an educational platform that enables students to learn faster by facilitating code reviews between peers, and provides lecturers with granular data for accurate and efficient grading.",
     points: [
@@ -42,8 +40,8 @@ const EXPERIENCES = [
   },
   {
     title: "Patch 2021 - Alumni",
-    image: kreohDemoDay,
     link: "https://www.joinpatch.org/",
+    dates: "July 2021 - August 2021",
     description:
       "1 of 24 chosen to participate in Patch - a 6 week summer accelerator for ambitious, curious, driven 16-21 year olds.",
     points: [
